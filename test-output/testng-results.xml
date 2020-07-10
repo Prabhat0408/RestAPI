@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1568" started-at="2020-07-09T03:58:33Z" finished-at="2020-07-09T03:58:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1568" started-at="2020-07-09T03:58:33Z" finished-at="2020-07-09T03:58:35Z">
+      <class name="com.learning.api.RestDemo.RestAssuredFirstClass">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.learning.api.RestDemo.RestAssuredFirstClass@7bb58ca3]" name="f" duration-ms="1556" started-at="2020-07-09T09:28:33Z" finished-at="2020-07-09T09:28:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.learning.api.RestDemo.RestAssuredFirstClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
