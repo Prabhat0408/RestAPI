@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none">
     <classes>
-      <class name="com.learning.api.RestDemo.RestAssuredFirstClass">
+      <class name="com.learning.api.RestDemo.RestAssuredFirstClassTest">
         <methods>
-          <include name="f"/>
+          <include name="validatePostPustGet"/>
         </methods>
-      </class> <!-- com.learning.api.RestDemo.RestAssuredFirstClass -->
+      </class> <!-- com.learning.api.RestDemo.RestAssuredFirstClassTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1568" started-at="2020-07-09T03:58:33Z" finished-at="2020-07-09T03:58:35Z">
+  <suite name="Default suite" duration-ms="3035" started-at="2020-07-13T04:12:05Z" finished-at="2020-07-13T04:12:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1568" started-at="2020-07-09T03:58:33Z" finished-at="2020-07-09T03:58:35Z">
-      <class name="com.learning.api.RestDemo.RestAssuredFirstClass">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.learning.api.RestDemo.RestAssuredFirstClass@7bb58ca3]" name="f" duration-ms="1556" started-at="2020-07-09T09:28:33Z" finished-at="2020-07-09T09:28:35Z">
+    <test name="Default test" duration-ms="3035" started-at="2020-07-13T04:12:05Z" finished-at="2020-07-13T04:12:08Z">
+      <class name="com.learning.api.RestDemo.RestAssuredFirstClassTest">
+        <test-method status="PASS" signature="validatePostPustGet()[pri:0, instance:com.learning.api.RestDemo.RestAssuredFirstClassTest@7bb58ca3]" name="validatePostPustGet" duration-ms="3025" started-at="2020-07-13T09:42:05Z" finished-at="2020-07-13T09:42:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- com.learning.api.RestDemo.RestAssuredFirstClass -->
+        </test-method> <!-- validatePostPustGet -->
+      </class> <!-- com.learning.api.RestDemo.RestAssuredFirstClassTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
