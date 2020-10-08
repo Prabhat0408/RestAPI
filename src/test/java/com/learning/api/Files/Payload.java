@@ -21,4 +21,13 @@ public class Payload {
 				"}\r\n" + 
 				"";
 	}
+	
+	public static String addUser() {
+		String payload= "{\r\n" + 
+				"    \"name\": \"morpheus\",\r\n" + 
+				"    \"job\": \"leader\"\r\n" + 
+				"}\r\n" + 
+				"";
+				return payload;
+	}
 }
