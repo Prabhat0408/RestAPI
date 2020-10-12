@@ -16,11 +16,11 @@ import org.slf4j.LoggerFactory;
  * @author prabhat
  *
  */
-public final class FrameworkProperties {
+public final class ConfigProperties {
 
 	private static final String FILE_NAME_SEPARATOR = ",";
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(FrameworkProperties.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(ConfigProperties.class);
 
 	private static final String DEFAULT_PROPS = "/configuration.properties";
 	private static final String PROP_EXTENSIONS = "app.properties.files";
@@ -29,7 +29,7 @@ public final class FrameworkProperties {
 
 	private static final Properties properties = new Properties();
 
-	private FrameworkProperties() {
+	private ConfigProperties() {
 	}
 
 	static {
@@ -72,7 +72,7 @@ public final class FrameworkProperties {
 	}
 
 	private static void loadProperty(final String file) throws IOException {
-		properties.load(FrameworkProperties.class.getResourceAsStream(file));
+		properties.load(ConfigProperties.class.getResourceAsStream(file));
 	}
 
 	private static void loadProperty(final String file, final boolean faileOnError) {
