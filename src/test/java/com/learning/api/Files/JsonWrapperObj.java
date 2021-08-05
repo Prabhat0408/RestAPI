@@ -6,6 +6,7 @@ public class JsonWrapperObj {
 	private static JsonPath js;
 	public static JsonPath getObj(String str){
 		js = new JsonPath(str);
+		
 		return js;
 		
 	}

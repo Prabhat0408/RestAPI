@@ -23,6 +23,7 @@ public class RestAssuredFirstClassTest {
 			 .header("Server", "Apache/2.4.18 (Ubuntu)").extract().response().asString();
 	  
 	  System.out.println(response);
+	 
 	  
 	  JsonPath js =JsonWrapperObj.getObj(response);
 	  String placeId= js.get("place_id");
